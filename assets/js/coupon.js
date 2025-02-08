@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
 	const baseUrl = "https://rizzpharma.com/API";
 	const homeUrl = "https://rizzpharma.com/#ref/";
-	const refCode = "fc78eb4a-d2ea-ba16-adfd-b9e8e762c29f";
+	const refCode = "e2f402aa-4c69-2b7a-c9f6-fe3dffb81e19";
 	const homeUrlFull = `${homeUrl}${refCode}`;
 
 	const cName = "Tammy Wilson";
