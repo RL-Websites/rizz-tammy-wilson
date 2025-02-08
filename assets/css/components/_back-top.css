@@ -1,0 +1,18 @@
+#backToTop {
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	z-index: 9999;
+	bottom: 20px;
+	right: 30px;
+	background-color: #e5106c;
+	font-weight: 700;
+	color: white;
+	border: none;
+	cursor: pointer;
+	display: none;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+	&:hover {
+		background-color: rgba(229, 16, 108, 0.9);
+	}
+}

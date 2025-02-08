@@ -1,0 +1,10 @@
+@layer base {
+	:root {
+		--primary: #e5106c;
+		--dark1: #161616;
+		--dark2: #252525;
+		--dark3: #212121;
+		--dark4: #9c9c9c;
+		--grey1: #b1b2b2;
+	}
+}

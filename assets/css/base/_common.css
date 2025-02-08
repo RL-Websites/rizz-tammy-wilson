@@ -1,0 +1,19 @@
+p {
+	color: #9c9c9c;
+}
+html {
+	scroll-behavior: smooth;
+}
+header {
+	position: relative;
+	z-index: 9999;
+}
+@media only screen and (max-width: 1170px) {
+	section,
+	header,
+	.footer__top,
+	.footer__bottom {
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+}

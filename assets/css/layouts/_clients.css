@@ -1,0 +1,79 @@
+.clients {
+	padding: 90px 0;
+	background: url('../../assets/img/client-banner.webp');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: relative;
+	&__content {
+		text-align: center;
+		max-width: 1000px;
+		margin: 0 auto;
+		overflow: hidden !important;
+	}
+	&__slider {
+		position: relative;
+	}
+	&__arrow-prev {
+		position: absolute;
+		z-index: 999;
+		left: 40px;
+		top: 50%;
+		transform: translateY(-50%);
+		transition: 0.4s;
+
+		&:hover {
+			left: 32px;
+		}
+	}
+	&__arrow-next {
+		position: absolute;
+		z-index: 999;
+		right: 40px;
+		top: 50%;
+		transform: translateY(-50%);
+		transition: 0.4s;
+
+		&:hover {
+			right: 32px;
+		}
+	}
+}
+
+@media only screen and (max-width: 1170px) {
+	.clients {
+		padding: 100px 0;
+		&__content {
+			max-width: 800px;
+		}
+	}
+}
+@media only screen and (max-width: 992px) {
+	.clients {
+		padding: 100px 0;
+		&__content {
+			max-width: 600px;
+		}
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.clients {
+		padding: 100px 0;
+		&__content {
+			padding: 0 30px;
+		}
+		&__arrow-prev {
+			left: 5px;
+			&:hover {
+				left: 0;
+			}
+		}
+		&__arrow-next {
+			right: 5px;
+			&:hover {
+				right: 0;
+			}
+		}
+	}
+}

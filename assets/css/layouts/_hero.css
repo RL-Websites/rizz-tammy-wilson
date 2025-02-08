@@ -1,0 +1,60 @@
+.hero {
+	padding: 0 44px 80px;
+	min-height: 100vh;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #111111;
+	background-position: center center;
+	overflow: hidden;
+	position: relative;
+	&__banner {
+		display: none;
+	}
+
+	&__content {
+		background-attachment: fixed;
+	}
+	&__heading {
+		font-size: 170px;
+		line-height: 130px;
+	}
+}
+
+@media only screen and (max-width: 1023px) {
+	.hero {
+		padding: 0 0 100px;
+		min-height: unset;
+		background-image: none;
+		&__heading {
+			font-size: 80px;
+			line-height: 60px;
+		}
+
+		&__banner {
+			display: block;
+			&--mob {
+				position: absolute;
+				z-index: 0;
+				top: 0;
+				bottom: 0;
+				left: 50%;
+				transform: translateX(-50%);
+				height: 100%;
+			}
+		}
+		&__content {
+			position: relative;
+			z-index: 10;
+		}
+	}
+}
+
+@media only screen and (max-width: 575px) {
+	.hero {
+		&__heading {
+			font-size: 60px;
+			line-height: 60px;
+		}
+	}
+}

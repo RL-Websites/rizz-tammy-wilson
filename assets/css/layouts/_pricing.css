@@ -1,0 +1,44 @@
+.pricing {
+	padding: 100px 0;
+	background-color: #1b1b1b;
+	background-image: url('../../assets/img/weight-loss.webp');
+	background-size: 50%;
+	background-position: right;
+	background-repeat: no-repeat;
+	&__two {
+		background-image: url('../../assets/img/better-sex.webp');
+		background-position: left;
+	}
+	&__three {
+		background-image: url('../../assets/img/athlete.webp');
+	}
+	&__number {
+		font-family: 'Teko', serif;
+	}
+}
+
+@media only screen and (max-width: 1440px) {
+	.pricing {
+		padding: 0 15px;
+	}
+}
+@media only screen and (max-width: 1170px) {
+	.pricing {
+		padding: 30px 15px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.pricing {
+		background-image: none;
+		padding: 100px 0;
+		&__alt {
+			padding-top: 0;
+			background-image: none;
+		}
+		&__two,
+		&__three {
+			padding-top: 0;
+		}
+	}
+}

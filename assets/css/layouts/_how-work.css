@@ -1,0 +1,40 @@
+.how-work {
+	padding: 100px 0;
+	background-color: var(--dark1);
+	&__process {
+		&--single {
+			background-color: #29282d;
+			padding: 50px 40px;
+			text-align: center;
+			overflow: hidden;
+		}
+		&__badge {
+			position: relative;
+			&::after {
+				content: '\e908';
+				font-family: 'icomoon';
+				font-size: 14px;
+				position: absolute;
+				top: -30px;
+				right: -30px;
+				padding-top: 38px;
+				color: white;
+				background-color: #e5106c;
+				width: 60px;
+				height: 60px;
+				text-align: center;
+				transform: rotate(45deg);
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.how-work {
+		&__process {
+			&--single {
+				padding: 20px;
+			}
+		}
+	}
+}

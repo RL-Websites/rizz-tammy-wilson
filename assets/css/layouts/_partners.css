@@ -1,0 +1,41 @@
+.partners {
+	padding: 70px 30px;
+	background-color: #e5106c;
+	transition: 0.5s;
+
+	&__img {
+		overflow: hidden;
+		height: 70px;
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		img {
+			transition: 0.8s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+			&:first-child {
+				position: relative;
+				top: -120%;
+			}
+			&:last-child {
+				position: absolute;
+				top: 0;
+			}
+		}
+		&:hover {
+			img {
+				&:first-child {
+					top: 0;
+				}
+				&:last-child {
+					top: 100%;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.partners {
+		padding: 50px 0;
+	}
+}
