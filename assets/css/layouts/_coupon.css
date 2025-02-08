@@ -354,4 +354,7 @@
 	.coupon-content {
 		width: 90vw;
 	}
+	.coupon-body {
+		width: 252px;
+	}
 }
