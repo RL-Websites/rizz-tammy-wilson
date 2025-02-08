@@ -1,5 +1,5 @@
 .hero {
-	padding: 0 44px 170px;
+	padding: 0 70px 170px;
 	min-height: 100vh;
 	background-attachment: fixed;
 	background-size: cover;
@@ -16,7 +16,7 @@
 		background-attachment: fixed;
 	}
 	&__heading {
-		font-size: 170px;
+		font-size: 150px;
 		line-height: 130px;
 	}
 }
@@ -27,8 +27,8 @@
 		min-height: unset;
 		background-image: none;
 		&__heading {
-			font-size: 80px;
-			line-height: 60px;
+			font-size: 100px;
+			line-height: 1;
 		}
 
 		&__banner {
@@ -50,11 +50,17 @@
 	}
 }
 
+@media only screen and (max-width: 767px) {
+	.hero {
+		padding: 80px 0 100px;
+	}
+}
+
 @media only screen and (max-width: 575px) {
 	.hero {
 		&__heading {
-			font-size: 60px;
-			line-height: 60px;
+			font-size: 80px;
+			line-height: 80px;
 		}
 	}
 }

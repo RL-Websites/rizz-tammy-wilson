@@ -11,7 +11,7 @@
 		&__badge {
 			position: relative;
 			&::after {
-				content: '\e908';
+				content: '\e916';
 				font-family: 'icomoon';
 				font-size: 14px;
 				position: absolute;
