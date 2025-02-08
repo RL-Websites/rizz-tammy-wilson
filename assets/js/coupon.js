@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	const refCode = "fc78eb4a-d2ea-ba16-adfd-b9e8e762c29f";
 	const homeUrlFull = `${homeUrl}${refCode}`;
 
-	const cName = "Chito Vera";
+	const cName = "Tammy Wilson";
 	const getModuleId = 424;
 	const getTabId = 53;
 	const postModuleId = 428;
