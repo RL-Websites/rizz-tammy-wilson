@@ -61,4 +61,8 @@ $(document).ready(function () {
 		hero.style.backgroundPositionY = `${scrollY * -0.5}px`;
 		heroContent.style.transform = `translateY(${scrollY * 0.5}px)`;
 	});
+	//Current Date
+	var currentDate = new Date();
+	var dateObject = currentDate.getFullYear();
+	$("#currentYear").html(dateObject);
 });
